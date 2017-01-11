@@ -58,7 +58,7 @@ while answer == 'oui':
         elif download == 'all':
             for i in range (0,nbset):
                 query = content['datasets'][int(i)]['datasetid']
-                url = "https://data.toulouse-metropole.fr/api/records/1.0/search/?dataset=%s" %q
+                url = "https://data.toulouse-metropole.fr/api/records/1.0/search/?dataset=%s" %query
                 search = urllib.request.urlopen(url)
                 research = simplejson.loads(search.read())
                 with open('%s.json' %query, 'w', encoding='utf8') as json_file:
