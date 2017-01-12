@@ -1,6 +1,7 @@
 
 # Groupe 3.
-# V1.0.2
+# V2.0.2
+# récupération de l'état et de la sous catégorie
 # modifications pour respecter la charte
 
 from bs4 import BeautifulSoup
