@@ -1,7 +1,7 @@
 
 # Groupe 3.
-# V2.1.1
-# modifications pour respect de la charte
+# V1.0.1
+# modifications pour respect de la charte et correction de bug
 
 
 import urllib.request
